@@ -1,6 +1,3301 @@
 {
-  "source": "UC Berkeley expert report cross-referenced with Forbes RTB API",
-  "date": "2025-12",
-  "note": "Synthetic dataset calibrated to match Berkeley report totals: 204 billionaires, $2.19T collective wealth",
-  "billionaires": []
+  "source": "Forbes Real-Time Billionaires API (komed3/rtb-api)",
+  "fetch_date": "2026-02-11",
+  "note": "California billionaires filtered from US profiles. Net worth in billions USD.",
+  "total_count": 250,
+  "total_wealth_b": 2245.2,
+  "billionaires": [
+    {
+      "name": "Larry Page",
+      "net_worth_b": 276.39,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Google"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sergey Brin",
+      "net_worth_b": 254.98,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Google"
+      ],
+      "city": "Los Altos",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "net_worth_b": 245.47,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Facebook"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Larry Ellison",
+      "net_worth_b": 211.23,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Oracle"
+      ],
+      "city": "Woodside",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jensen Huang",
+      "net_worth_b": 165.91,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "Los Altos",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Eric Schmidt",
+      "net_worth_b": 37.9,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Google"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Henry Samueli",
+      "net_worth_b": 31.8,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "Newport Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Robert Pera",
+      "net_worth_b": 26.84,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Wireless networking"
+      ],
+      "city": "San Jose",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Peter Thiel",
+      "net_worth_b": 26.3,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Facebook",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John Tu",
+      "net_worth_b": 21.96,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Computer hardware"
+      ],
+      "city": "Rolling Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Sun",
+      "net_worth_b": 21.94,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Computer hardware"
+      ],
+      "city": "Irvine",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John Doerr",
+      "net_worth_b": 21.48,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "Woodside",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Henry Nicholas III",
+      "net_worth_b": 21.13,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "Newport Coast",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Donald Bren",
+      "net_worth_b": 19.21,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Newport Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Eric Smidt",
+      "net_worth_b": 17.92,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Hardware stores"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jan Koum",
+      "net_worth_b": 17.34,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "WhatsApp"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Adam Foroughi",
+      "net_worth_b": 17.12,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "mobile games"
+      ],
+      "city": "Truckee",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "George Roberts",
+      "net_worth_b": 14.68,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Charles Schwab",
+      "net_worth_b": 13.88,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Discount brokerage"
+      ],
+      "city": "Woodside",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "net_worth_b": 13.58,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Apple",
+        "Disney"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Vinod Khosla",
+      "net_worth_b": 13.19,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Sun Microsystems",
+        "venture capital"
+      ],
+      "city": "Portola Valley",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Riley Bechtel & family",
+      "net_worth_b": 12.45,
+      "industry": "Manufacturing",
+      "industry_raw": "construction-engineering",
+      "source": [
+        "Engineering",
+        "construction"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Antony Ressler",
+      "net_worth_b": 12.08,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Finance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jack Dangermond",
+      "net_worth_b": 11.88,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Mapping software"
+      ],
+      "city": "Redlands",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Dustin Moskovitz",
+      "net_worth_b": 11.31,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Facebook"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Douglas Leone",
+      "net_worth_b": 11.07,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Marijke Mars",
+      "net_worth_b": 10.63,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Candy",
+        "pet food"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chris Larsen",
+      "net_worth_b": 10.2,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Cryptocurrency"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tom Gores",
+      "net_worth_b": 10.06,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Geffen",
+      "net_worth_b": 9.26,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Movies",
+        "record labels"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Brian Chesky",
+      "net_worth_b": 9.14,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Airbnb"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nathan Blecharczyk",
+      "net_worth_b": 8.67,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Airbnb"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Lynsi Snyder",
+      "net_worth_b": 8.67,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "In-N-Out Burger"
+      ],
+      "city": "Glendora",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Brian Armstrong",
+      "net_worth_b": 8.64,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Cryptocurrency"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Steven Rales",
+      "net_worth_b": 8.39,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Manufacturing",
+        "investments"
+      ],
+      "city": "Santa Barbara",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Patrick Soon-Shiong",
+      "net_worth_b": 8.17,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Pharmaceuticals"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Don Hankey",
+      "net_worth_b": 8.15,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Auto loans"
+      ],
+      "city": "Malibu",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Marc Benioff",
+      "net_worth_b": 8.14,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Business software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Stewart and Lynda Resnick",
+      "net_worth_b": 8.0,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "agriculture",
+        "water"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Stewart & Lynda Resnick",
+      "net_worth_b": 8.0,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "agriculture",
+        "water"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tench Coxe",
+      "net_worth_b": 7.87,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Edward Roski Jr",
+      "net_worth_b": 7.85,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Moritz",
+      "net_worth_b": 7.71,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Milken",
+      "net_worth_b": 7.47,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Steven Spielberg",
+      "net_worth_b": 7.06,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Movies"
+      ],
+      "city": "Pacific Palisades",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Edythe Broad & family",
+      "net_worth_b": 7.0,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "Homebuilding",
+        "insurance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John A. Sobrato & family",
+      "net_worth_b": 6.53,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Scott Cook",
+      "net_worth_b": 5.98,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Woodside",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jayshree Ullal",
+      "net_worth_b": 5.96,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Computer networking"
+      ],
+      "city": "Saratoga",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Rick Caruso",
+      "net_worth_b": 5.92,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Andrew Karam",
+      "net_worth_b": 5.82,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "marketing software",
+        "mobile games"
+      ],
+      "city": "Menlo Park",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Ken Xie",
+      "net_worth_b": 5.77,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Cybersecurity"
+      ],
+      "city": "Los Altos Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Baiju Bhatt",
+      "net_worth_b": 5.77,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Stock trading app"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jack Dorsey",
+      "net_worth_b": 5.75,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Twitter",
+        "Square"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Archie Aldis Emmerson & family",
+      "net_worth_b": 5.7,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Timberland",
+        "lumber mills"
+      ],
+      "city": "Redding",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Vlad Tenev",
+      "net_worth_b": 5.57,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Stock trading app"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Romesh T. Wadhwani",
+      "net_worth_b": 5.52,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Gwendolyn Sontheim Meyer",
+      "net_worth_b": 5.51,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Cargill"
+      ],
+      "city": "Rancho Santa Fe",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Neal Blue & family",
+      "net_worth_b": 5.5,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Defense"
+      ],
+      "city": "San Diego",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Gordon Getty & family",
+      "net_worth_b": 5.49,
+      "industry": "Energy",
+      "industry_raw": "energy",
+      "source": [
+        "Getty Oil"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Lynda Resnick",
+      "net_worth_b": 5.39,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Agriculture"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Stewart Resnick",
+      "net_worth_b": 5.39,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Agriculture"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jean (Gigi) Pritzker",
+      "net_worth_b": 5.32,
+      "industry": "Other",
+      "industry_raw": "service",
+      "source": [
+        "Hotels",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "George Lucas",
+      "net_worth_b": 5.3,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Star Wars"
+      ],
+      "city": "San Anselmo",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Eric Yuan & family",
+      "net_worth_b": 5.3,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Zoom Video Communications"
+      ],
+      "city": "Santa Clara",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Stephen Cohen",
+      "net_worth_b": 5.11,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Scott Crabill",
+      "net_worth_b": 4.89,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Holden Spaht",
+      "net_worth_b": 4.89,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Xie",
+      "net_worth_b": 4.87,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Cybersecurity"
+      ],
+      "city": "Los Altos Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Seth Boro",
+      "net_worth_b": 4.87,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jim Coulter",
+      "net_worth_b": 4.82,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Dagmar Dolby & family",
+      "net_worth_b": 4.77,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Dolby Laboratories"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Reed Hastings",
+      "net_worth_b": 4.76,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Netflix"
+      ],
+      "city": "Santa Cruz",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Rupert Johnson Jr",
+      "net_worth_b": 4.7,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Franklin Templeton"
+      ],
+      "city": "Burlingame",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Filo",
+      "net_worth_b": 4.56,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Yahoo"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Rodney Sacks & family",
+      "net_worth_b": 4.53,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Energy drinks"
+      ],
+      "city": "Laguna Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Anthony Pritzker",
+      "net_worth_b": 4.43,
+      "industry": "Other",
+      "industry_raw": "service",
+      "source": [
+        "Hotels",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Donald Sterling",
+      "net_worth_b": 4.37,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeff Green",
+      "net_worth_b": 4.22,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "online advertising"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Baszucki",
+      "net_worth_b": 4.17,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Online games"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Thomas Siebel",
+      "net_worth_b": 3.99,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Business software"
+      ],
+      "city": "Woodside",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jos\u00e9 E. Feliciano",
+      "net_worth_b": 3.88,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Behdad Eghbali",
+      "net_worth_b": 3.86,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Meg Whitman",
+      "net_worth_b": 3.85,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "EBay"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John Fisher",
+      "net_worth_b": 3.82,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Gap"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kavitark Ram Shriram",
+      "net_worth_b": 3.79,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Google",
+        "venture capital"
+      ],
+      "city": "Menlo Park",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Danny Harris",
+      "net_worth_b": 3.73,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Alo Yoga"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Eduardo Vivas",
+      "net_worth_b": 3.71,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "marketing software",
+        "mobile games"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Daniela Amodei",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Dario Amodei",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artifical intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jack Clark",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jared Kaplan",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "Pacifica",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sam McCandlish",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tom Brown",
+      "net_worth_b": 3.7,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Marco DeGeorge",
+      "net_worth_b": 3.69,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Alo Yoga"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Hemant Taneja",
+      "net_worth_b": 3.63,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Richard Peery",
+      "net_worth_b": 3.62,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Palmer Luckey",
+      "net_worth_b": 3.6,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Virtual reality",
+        "defense technology"
+      ],
+      "city": "Newport Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Brian Acton",
+      "net_worth_b": 3.58,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "WhatsApp"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Travis Kalanick",
+      "net_worth_b": 3.56,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Uber"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Peter Gassner",
+      "net_worth_b": 3.55,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Pleasanton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Parker Conrad",
+      "net_worth_b": 3.4,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "George Argyros & family",
+      "net_worth_b": 3.34,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate",
+        "investments"
+      ],
+      "city": "Newport Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sanjit Biswas",
+      "net_worth_b": 3.32,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Sensor systems"
+      ],
+      "city": "San Francisco ",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jay Paul",
+      "net_worth_b": 3.27,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Haim Saban",
+      "net_worth_b": 3.25,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "TV network",
+        "investments"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John Bicket",
+      "net_worth_b": 3.22,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Sensor systems"
+      ],
+      "city": "San Francisco ",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Alexandr Wang",
+      "net_worth_b": 3.21,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "artificial intelligence"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeff Rothschild",
+      "net_worth_b": 3.21,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Facebook"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "William Chisholm",
+      "net_worth_b": 3.18,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Frank Slootman",
+      "net_worth_b": 3.13,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Pleasanton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jerry Yang",
+      "net_worth_b": 3.09,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Yahoo"
+      ],
+      "city": "Los Altos Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sean Parker",
+      "net_worth_b": 3.05,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Facebook"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nicolas Berggruen",
+      "net_worth_b": 2.93,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate",
+        "investments"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tim Draper",
+      "net_worth_b": 2.88,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "cryptocurrency"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Daniel Pritzker",
+      "net_worth_b": 2.87,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Hotels",
+        "investments"
+      ],
+      "city": "Marin County",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jed McCaleb",
+      "net_worth_b": 2.85,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Cryptocurrency"
+      ],
+      "city": "Berkeley",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "John Pritzker",
+      "net_worth_b": 2.7,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Hotels",
+        "investments"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Aneel Bhusri",
+      "net_worth_b": 2.57,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Business software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tim Cook",
+      "net_worth_b": 2.57,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Apple"
+      ],
+      "city": "Cupertino",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Barbara Banke & family",
+      "net_worth_b": 2.54,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Wine"
+      ],
+      "city": "Geyserville",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "George Joseph",
+      "net_worth_b": 2.53,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Insurance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tony Xu",
+      "net_worth_b": 2.49,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "food delivery service"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Evan Spiegel",
+      "net_worth_b": 2.47,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Snapchat"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Fred Ehrsam",
+      "net_worth_b": 2.46,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "cryptocurrency exchange"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Reid Hoffman",
+      "net_worth_b": 2.43,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "LinkedIn"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sheryl Sandberg",
+      "net_worth_b": 2.42,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Facebook"
+      ],
+      "city": "Menlo Park",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kevin Systrom",
+      "net_worth_b": 2.4,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Instagram"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Anthony Wood",
+      "net_worth_b": 2.39,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Roku"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Bruce Karsh",
+      "net_worth_b": 2.39,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sarah MacMillan",
+      "net_worth_b": 2.37,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Cargill"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Joe Lacob",
+      "net_worth_b": 2.34,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Golden State Warriors"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Vasily Shikin",
+      "net_worth_b": 2.33,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Advertising technology"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kenneth Hao",
+      "net_worth_b": 2.31,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Hillsborough",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Bennett Rosenthal",
+      "net_worth_b": 2.3,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Finance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeff T. Green",
+      "net_worth_b": 2.29,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Digital advertising"
+      ],
+      "city": "Newbury Park",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jyoti Bansal",
+      "net_worth_b": 2.28,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Egon Durban",
+      "net_worth_b": 2.27,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Alice Schwartz",
+      "net_worth_b": 2.25,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Medical devices"
+      ],
+      "city": "El Cerrito",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tom Ford",
+      "net_worth_b": 2.25,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Fashion"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nicholas Pritzker II",
+      "net_worth_b": 2.24,
+      "industry": "Other",
+      "industry_raw": "service",
+      "source": [
+        "hotels",
+        "investments"
+      ],
+      "city": "Nicasio",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Valani Riaz",
+      "net_worth_b": 2.23,
+      "industry": "Other",
+      "industry_raw": "",
+      "source": [
+        ""
+      ],
+      "city": "Malibu",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Irving Grousbeck & family",
+      "net_worth_b": 2.23,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Telecommunication",
+        "sports"
+      ],
+      "city": "Portola Valley",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "James Scapa",
+      "net_worth_b": 2.21,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Adarsh Hiremath",
+      "net_worth_b": 2.2,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Brendan Foody",
+      "net_worth_b": 2.2,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Surya Midha",
+      "net_worth_b": 2.2,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Cagney",
+      "net_worth_b": 2.19,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Blockchain technology"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Richard Saghian",
+      "net_worth_b": 2.15,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Fast fashion"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chris Wanstrath",
+      "net_worth_b": 2.13,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Kaplan",
+      "net_worth_b": 2.12,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Finance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Alec Gores",
+      "net_worth_b": 2.11,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeff Tangney",
+      "net_worth_b": 2.1,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Healthcare IT"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jose Feliciano",
+      "net_worth_b": 2.1,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "private equity"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Walter Wang",
+      "net_worth_b": 2.1,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Manufacturing"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Robert Fisher",
+      "net_worth_b": 2.09,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Gap"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jon Winkelried",
+      "net_worth_b": 2.06,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Private equity",
+        "banking"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tom Werner",
+      "net_worth_b": 2.04,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Sports teams"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Thomas Steyer",
+      "net_worth_b": 2.03,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Hedge funds"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Geoffrey Palmer",
+      "net_worth_b": 1.95,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Evan Williams",
+      "net_worth_b": 1.95,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Twitter"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Drew Houston",
+      "net_worth_b": 1.94,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Cloud storage service"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sam Altman",
+      "net_worth_b": 1.93,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Riaz Valani",
+      "net_worth_b": 1.93,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "E-cigarettes"
+      ],
+      "city": "Malibu",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Marc Andreessen",
+      "net_worth_b": 1.9,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital investing"
+      ],
+      "city": "Menlo Park",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Bobby Murphy",
+      "net_worth_b": 1.89,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Snapchat"
+      ],
+      "city": "Venice",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kim Kardashian",
+      "net_worth_b": 1.89,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Shapewear",
+        "skincare"
+      ],
+      "city": "Hidden Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Mark Attanasio",
+      "net_worth_b": 1.86,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Finance"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "William Fisher",
+      "net_worth_b": 1.81,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Gap"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Max Levchin",
+      "net_worth_b": 1.77,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "fintech"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Gary Michelson",
+      "net_worth_b": 1.76,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Medical patents"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kim Kardashian West",
+      "net_worth_b": 1.76,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "cosmetics",
+        "reality TV"
+      ],
+      "city": "Hidden Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kevin Marchetti",
+      "net_worth_b": 1.73,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "Diversified"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Osman Kibar",
+      "net_worth_b": 1.71,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Biotech"
+      ],
+      "city": "La Jolla",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Patrick Hanrahan",
+      "net_worth_b": 1.69,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "Portola Valley",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nicholas Pritzker",
+      "net_worth_b": 1.67,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Hotels",
+        "investments"
+      ],
+      "city": "Nicasio",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Edward Glazer",
+      "net_worth_b": 1.67,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Manchester United",
+        "Tampa Bay Buccaneers"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Bill Gross",
+      "net_worth_b": 1.67,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "Laguna Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeffrey Gundlach",
+      "net_worth_b": 1.64,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sue Gross",
+      "net_worth_b": 1.63,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "Laguna Beach",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Andy Fang",
+      "net_worth_b": 1.63,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "food delivery app"
+      ],
+      "city": "Monte Vista",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Doris Fisher",
+      "net_worth_b": 1.62,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Gap"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Art Levinson",
+      "net_worth_b": 1.61,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "Genentech",
+        "Apple"
+      ],
+      "city": "Hillsborough",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sundar Pichai",
+      "net_worth_b": 1.6,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Alphabet"
+      ],
+      "city": "Los Altos Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Steven Tisch",
+      "net_worth_b": 1.59,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "Loews",
+        "New York Giants"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Charles Liang",
+      "net_worth_b": 1.55,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Computer hardware"
+      ],
+      "city": "San Jose",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Peter Guber",
+      "net_worth_b": 1.54,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Sports teams",
+        "movies"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Joe Lau",
+      "net_worth_b": 1.53,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Blockchain technology"
+      ],
+      "city": "Stanford",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nikil Viswanathan",
+      "net_worth_b": 1.53,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Blockchain technology"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Teel",
+      "net_worth_b": 1.51,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "supermarkets"
+      ],
+      "city": "Sacramento",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Pantas Sutardja",
+      "net_worth_b": 1.5,
+      "industry": "Other",
+      "industry_raw": "",
+      "source": [
+        ""
+      ],
+      "city": "Saratoga",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Magic Johnson",
+      "net_worth_b": 1.49,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "Basketball",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "PJ Hyett",
+      "net_worth_b": 1.48,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "George Marcus",
+      "net_worth_b": 1.46,
+      "industry": "Real Estate",
+      "industry_raw": "real-estate",
+      "source": [
+        "Real estate"
+      ],
+      "city": "Los Altos Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Mike Speiser",
+      "net_worth_b": 1.45,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Lucy Guo",
+      "net_worth_b": 1.45,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Artificial intelligence"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Dylan Field",
+      "net_worth_b": 1.44,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Brett Adcock",
+      "net_worth_b": 1.44,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Robots"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Mark Pincus",
+      "net_worth_b": 1.43,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Online games"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Paul Sciarra",
+      "net_worth_b": 1.43,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Pinterest"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Benoit Dageville",
+      "net_worth_b": 1.42,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "San Carlos",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Nikesh Arora",
+      "net_worth_b": 1.4,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Cybersecurity",
+        "SoftBank",
+        "Google"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Marissa Mayer",
+      "net_worth_b": 1.38,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Google",
+        "Yahoo"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Ben Silbermann",
+      "net_worth_b": 1.37,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Social media"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Kathy Fields",
+      "net_worth_b": 1.36,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "skin care"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Katie Rodan",
+      "net_worth_b": 1.36,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "skin care"
+      ],
+      "city": "Orinda",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Frederic Luddy",
+      "net_worth_b": 1.32,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Software"
+      ],
+      "city": "San Diego",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Richard Kayne",
+      "net_worth_b": 1.31,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Investments"
+      ],
+      "city": "Santa Monica ",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "LeBron James",
+      "net_worth_b": 1.3,
+      "industry": "Media & Entertainment",
+      "industry_raw": "sports",
+      "source": [
+        "Basketball"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Aman Sanger",
+      "net_worth_b": 1.3,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Michael Truell",
+      "net_worth_b": 1.3,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "AI software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Hoffman",
+      "net_worth_b": 1.29,
+      "industry": "Finance & Investments",
+      "industry_raw": "diversified",
+      "source": [
+        "executive search",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jitendra Mohan",
+      "net_worth_b": 1.25,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "Santa Clara",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sanjay Gajendra",
+      "net_worth_b": 1.25,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "Santa Clara",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Donald Friese",
+      "net_worth_b": 1.22,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Manufacturing"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Theresia Gouw",
+      "net_worth_b": 1.22,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Venture capital"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jean-Marc Chapus",
+      "net_worth_b": 1.21,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Finance"
+      ],
+      "city": "Pacific Palisades",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Yvon Chouinard",
+      "net_worth_b": 1.2,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Patagonia"
+      ],
+      "city": "Ventura",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Thierry Cruanes",
+      "net_worth_b": 1.2,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "software"
+      ],
+      "city": "San Mateo",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Arnold Schwarzenegger",
+      "net_worth_b": 1.18,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Movies",
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Dick Wolf",
+      "net_worth_b": 1.18,
+      "industry": "Media & Entertainment",
+      "industry_raw": "media-entertainment",
+      "source": [
+        "Law & Order"
+      ],
+      "city": "Montecito",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Joe Kiani",
+      "net_worth_b": 1.14,
+      "industry": "Healthcare",
+      "industry_raw": "healthcare",
+      "source": [
+        "Medical devices"
+      ],
+      "city": "Irvine",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Stanley Tang",
+      "net_worth_b": 1.12,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "food delivery app"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Shyam Sankar",
+      "net_worth_b": 1.1,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Palantir"
+      ],
+      "city": "Palo Alto",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chris Britt",
+      "net_worth_b": 1.1,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "fintech"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Ryan Breslow",
+      "net_worth_b": 1.1,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "E-commerce software"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Isaac Larian",
+      "net_worth_b": 1.1,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "toys"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "net_worth_b": 1.08,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Facebook",
+        "venture capital"
+      ],
+      "city": "Atherton",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Herald Chen",
+      "net_worth_b": 1.06,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Marketing software",
+        "mobile games"
+      ],
+      "city": "Hillsborough",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Mimi Haas",
+      "net_worth_b": 1.05,
+      "industry": "Retail & Consumer",
+      "industry_raw": "fashion-retail",
+      "source": [
+        "Levi's jeans"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Linden Blue",
+      "net_worth_b": 1.05,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "defense"
+      ],
+      "city": "Del Mar",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Craig Newmark",
+      "net_worth_b": 1.04,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Craigslist"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Lowell Milken",
+      "net_worth_b": 1.04,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "investments"
+      ],
+      "city": "Los Angeles",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Sandy Weill",
+      "net_worth_b": 1.04,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "Citigroup"
+      ],
+      "city": "Sonoma",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Arash Ferdowsi",
+      "net_worth_b": 1.03,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "online file storage"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Adam D'Angelo",
+      "net_worth_b": 1.03,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Quora",
+        "Facebook"
+      ],
+      "city": "Mountain View",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Girouard",
+      "net_worth_b": 1.02,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "fintech"
+      ],
+      "city": "Redwood City",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "JoeBen Bevirt",
+      "net_worth_b": 1.02,
+      "industry": "Manufacturing",
+      "industry_raw": "manufacturing",
+      "source": [
+        "Electric aviation"
+      ],
+      "city": "Santa Cruz",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chris Sacca",
+      "net_worth_b": 1.02,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "venture capital investing"
+      ],
+      "city": "Truckee",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Chi Fung Cheng",
+      "net_worth_b": 1.02,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Semiconductors"
+      ],
+      "city": "San Jose",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Tran & family",
+      "net_worth_b": 1.02,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "Hot sauce"
+      ],
+      "city": "Arcadia",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Colette Kress",
+      "net_worth_b": 1.02,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Nvidia"
+      ],
+      "city": "Saratoga",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Steve Huffman",
+      "net_worth_b": 1.01,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Reddit"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Jeff Lawson",
+      "net_worth_b": 1.0,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "software"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "David Hall",
+      "net_worth_b": 1.0,
+      "industry": "Technology",
+      "industry_raw": "automotive",
+      "source": [
+        "automotive technology"
+      ],
+      "city": "Alameda",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "GT Dave",
+      "net_worth_b": 1.0,
+      "industry": "Retail & Consumer",
+      "industry_raw": "food-beverage",
+      "source": [
+        "kombucha"
+      ],
+      "city": "Beverly Hills",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Tom Preston-Werner",
+      "net_worth_b": 1.0,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "software"
+      ],
+      "city": "San Francisco ",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Trae Stephens",
+      "net_worth_b": 1.0,
+      "industry": "Technology",
+      "industry_raw": "technology",
+      "source": [
+        "Defense technology"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "William Hockey",
+      "net_worth_b": 1.0,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "fintech"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    },
+    {
+      "name": "Zach Perret",
+      "net_worth_b": 1.0,
+      "industry": "Finance & Investments",
+      "industry_raw": "finance-investments",
+      "source": [
+        "fintech"
+      ],
+      "city": "San Francisco",
+      "publicly_traded_pct": 0.6,
+      "estimated_re_pct": 0.1,
+      "state": "California"
+    }
+  ]
 }

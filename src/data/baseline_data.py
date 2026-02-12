@@ -78,19 +78,28 @@ WEALTH_TIERS = [
     {"range": "$50B+", "count": 8, "avg_wealth_b": 129.0, "total_wealth_b": 1032.0},
 ]
 
-# --- Industry breakdown (approximate) ---
+# --- Industry breakdown (from Forbes Real-Time Billionaires API, Feb 2026) ---
+# Note: Forbes identifies 280 CA billionaires ($2,378B) vs Berkeley report's 204 ($2,190B).
+# Difference due to date, residency definitions, and methodology.
+# Industry proportions from Forbes are used for the chart; tax model uses Berkeley totals.
 
 INDUSTRY_BREAKDOWN = {
-    "Technology": {"count": 82, "total_wealth_b": 1095},
-    "Finance & Investments": {"count": 38, "total_wealth_b": 320},
-    "Real Estate": {"count": 18, "total_wealth_b": 85},
-    "Healthcare": {"count": 14, "total_wealth_b": 125},
-    "Retail & Consumer": {"count": 12, "total_wealth_b": 190},
-    "Media & Entertainment": {"count": 10, "total_wealth_b": 155},
-    "Energy": {"count": 8, "total_wealth_b": 60},
-    "Manufacturing": {"count": 7, "total_wealth_b": 45},
-    "Other": {"count": 15, "total_wealth_b": 115},
+    "Technology": {"count": 125, "total_wealth_b": 1764.2},
+    "Finance & Investments": {"count": 65, "total_wealth_b": 285.8},
+    "Retail & Consumer": {"count": 32, "total_wealth_b": 115.6},
+    "Media & Entertainment": {"count": 18, "total_wealth_b": 68.0},
+    "Real Estate": {"count": 11, "total_wealth_b": 60.5},
+    "Manufacturing": {"count": 9, "total_wealth_b": 38.5},
+    "Healthcare": {"count": 8, "total_wealth_b": 18.1},
+    "Energy": {"count": 3, "total_wealth_b": 7.4},
+    "Other": {"count": 9, "total_wealth_b": 19.6},
 }
+
+FORBES_DATA_NOTE = (
+    "Industry breakdown sourced from Forbes Real-Time Billionaires API "
+    "(komed3/rtb-api), fetched Feb 2026. Forbes identifies 280 CA billionaires "
+    "vs Berkeley report's 204 due to different dates and residency criteria."
+)
 
 
 def get_baseline_summary():
