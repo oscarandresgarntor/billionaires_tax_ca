@@ -148,7 +148,8 @@ with st.expander("Technical Details"):
     **Installment Option**: Taxpayers can pay over 5 years at 5% annual interest.
 
     **Sources**:
-    - UC Berkeley report (Dec 2025): 204 billionaires, $2.19T wealth
+    - Forbes Real-Time Billionaires API (Feb 2026): 250 billionaires, $2.25T wealth
+    - Cross-reference: UC Berkeley report (Dec 2025): 204 billionaires, $2.19T
     - LAO analysis: Admin cost range $15M-$300M
     - IRS data: High-income compliance rates
     """)

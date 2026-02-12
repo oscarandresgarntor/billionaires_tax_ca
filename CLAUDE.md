@@ -26,6 +26,8 @@ python -m pytest tests/test_cost_benefit_model.py::TestCostBenefitTimeline::test
 
 **Entry point**: `app.py` uses `st.navigation` + `st.Page` to route between 7 pages.
 
+**Primary data source**: Forbes Real-Time Billionaires API (250 CA billionaires, $2,245B). UC Berkeley report (204, $2,190B) kept as cross-reference only.
+
 **Data flow**: Pages import from `src/models/` which import from `src/data/`. Pages never call data layer directly for computations.
 
 ```

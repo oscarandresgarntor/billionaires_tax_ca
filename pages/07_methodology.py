@@ -20,12 +20,15 @@ st.header("Data Sources")
 st.markdown("""
 | Source | What It Provides | Confidence |
 |--------|-----------------|-----------|
-| UC Berkeley expert report (Dec 2025) | 204 CA billionaires, $2.19T wealth, revenue estimates | High |
-| Forbes Real-Time Billionaires API | Current net worth, industry, residence | Medium |
+| **Forbes Real-Time Billionaires API** (Feb 2026) | **Primary baseline**: 250 CA billionaires, $2.25T wealth, industry, individual data | **High** |
+| UC Berkeley expert report (Dec 2025) | Cross-reference: 204 billionaires, $2.19T (methodology not disclosed) | Medium |
 | CA Legislative Analyst's Office (2025) | Admin cost range ($15M-$300M), revenue order of magnitude | Medium |
 | Franchise Tax Board / IRS SOI | Income tax revenue, high-earner migration data | High |
 | Published migration studies | Elasticity estimates (0.06 to 1.9) | Medium |
 | Federal Reserve / USDA | Fiscal multiplier estimates | Medium |
+
+Forbes data is preferred because each entry is individually verifiable against public stock holdings
+and SEC filings. The Berkeley report did not disclose its data sources or methodology.
 """)
 
 st.divider()

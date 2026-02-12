@@ -30,6 +30,22 @@ ASSUMPTIONS = {
         "confidence": "high",
         "notes": "Rate phases in linearly from $1.0B to $1.1B.",
     },
+    "num_billionaires": {
+        "value": 250,
+        "unit": "count",
+        "label": "CA Billionaires",
+        "source": "Forbes Real-Time Billionaires API (Feb 2026)",
+        "confidence": "high",
+        "notes": "Individually verifiable. Berkeley report (Dec 2025) cited 204; difference due to date and residency definitions.",
+    },
+    "total_wealth": {
+        "value": 2245,
+        "unit": "billions USD",
+        "label": "Total CA Billionaire Wealth",
+        "source": "Forbes Real-Time Billionaires API (Feb 2026)",
+        "confidence": "high",
+        "notes": "Top holdings verifiable via SEC filings. Berkeley report cited $2.19T.",
+    },
     "real_estate_exclusion": {
         "value": 0.10,
         "unit": "fraction",

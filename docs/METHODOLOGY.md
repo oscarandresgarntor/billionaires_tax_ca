@@ -12,7 +12,7 @@ This dashboard analyzes the proposed California 2026 Billionaire Tax Act (Initia
 ## Revenue Model
 
 ### Inputs
-- 204 California billionaires with $2.19 trillion collective wealth (UC Berkeley report, Dec 2025)
+- 250 California billionaires with $2.25 trillion collective wealth (Forbes API, Feb 2026; cross-ref: Berkeley report Dec 2025 cited 204 at $2.19T)
 - 5% excise tax rate with phase-in between $1.0B and $1.1B
 - Real estate exclusion (~10% of wealth)
 - Pension/retirement exclusion (~1%)

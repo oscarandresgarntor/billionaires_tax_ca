@@ -15,7 +15,7 @@ import streamlit as st
 
 from src.data.baseline_data import TOTAL_CA_BILLIONAIRES, TOTAL_COLLECTIVE_WEALTH_B
 
-RTB_BASE_URL = "https://raw.githubusercontent.com/komed3/rtb-api/main/api"
+RTB_BASE_URL = "https://cdn.statically.io/gh/komed3/rtb-api/main/api"
 BASELINE_PATH = Path(__file__).parent.parent.parent / "data" / "baseline" / "ca_billionaires_baseline.json"
 
 # California-related location keywords

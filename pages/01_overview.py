@@ -107,9 +107,15 @@ with alloc_cols[2]:
 with st.expander("Technical Details"):
     st.markdown("""
     **Data Sources**:
-    - UC Berkeley expert report (Galle, Gamage, Saez, Shanske, Dec 2025): 204 CA billionaires, $2.19T wealth
-    - Forbes Real-Time Billionaires API for current net worth data
+    - **Primary**: Forbes Real-Time Billionaires API (Feb 2026): 250 CA billionaires, $2.25T wealth
+    - **Cross-reference**: UC Berkeley expert report (Dec 2025): 204 billionaires, $2.19T
     - CA Legislative Analyst's Office for administrative cost estimates
+
+    Forbes data is used as the primary baseline because each entry is individually
+    verifiable (top billionaires can be cross-checked against public stock holdings).
+    The Berkeley report did not disclose its data sources. The ~46-person gap is
+    likely due to date differences and 59 billionaires near the $1B threshold
+    who frequently cross in/out with market movements.
 
     **Key Assumptions**:
     - The tax is ONE-TIME, not annual. Published migration elasticities are for annual taxes.

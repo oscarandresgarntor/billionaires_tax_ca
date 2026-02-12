@@ -79,8 +79,8 @@ SCENARIOS = {
 
 # Common parameters shared across all scenarios
 COMMON_PARAMS = {
-    "total_wealth_b": 2190,
-    "num_billionaires": 204,
+    "total_wealth_b": 2245,
+    "num_billionaires": 250,
     "tax_rate": 0.05,
     "real_estate_exclusion": 0.10,
     "pension_exclusion": 0.01,

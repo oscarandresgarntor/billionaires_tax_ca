@@ -3,6 +3,19 @@ Structured citation database for all research sources used in the analysis.
 """
 
 CITATIONS = {
+    "forbes_rtb_2026": {
+        "authors": "Forbes / komed3 (RTB API)",
+        "year": 2026,
+        "title": "Forbes Real-Time Billionaires List",
+        "source": "Forbes Real-Time Billionaires API (github.com/komed3/rtb-api)",
+        "date": "February 2026",
+        "key_findings": [
+            "250 California billionaires with $2.25T collective wealth",
+            "Technology sector: 125 billionaires, $1.76T (74% of total wealth)",
+            "Individual-level data verifiable against SEC filings",
+        ],
+        "url": "https://github.com/komed3/rtb-api",
+    },
     "berkeley_2025": {
         "authors": "Galle, B., Gamage, D., Saez, E., & Shanske, D.",
         "year": 2025,
@@ -10,9 +23,9 @@ CITATIONS = {
         "source": "UC Berkeley",
         "date": "December 2025",
         "key_findings": [
-            "204 California billionaires with $2.19T collective wealth",
-            "Estimated gross revenue of ~$97.5B",
-            "Anti-avoidance provisions limit strategic departure",
+            "Cited 204 California billionaires with $2.19T collective wealth",
+            "Data sources and methodology not disclosed in report",
+            "Used as cross-reference; Forbes API data (250 billionaires, $2.25T) used as primary baseline",
         ],
         "url": "",
     },

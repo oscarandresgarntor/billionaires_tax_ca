@@ -2,20 +2,23 @@
 
 ## Primary Sources
 
-### UC Berkeley Expert Report (December 2025)
+### Forbes Real-Time Billionaires API (Primary Baseline)
+- **Source**: github.com/komed3/rtb-api (community mirror of Forbes daily data)
+- **What it provides**: Individual-level data for 250 CA billionaires ($2.25T), including name, net worth, industry, city, wealth source
+- **Access**: Free JSON API via GitHub CDN (no auth required)
+- **Confidence**: High — top holdings verifiable against SEC filings and public stock data
+- **Used for**: Primary baseline for all model calculations
+- **Data fetch**: Feb 11, 2026 — profiles for all 1,208 US billionaires fetched, filtered to California residents with net worth >= $1B
+- **Note**: Forbes has tracked billionaires since 1987 with dedicated research teams
+
+### UC Berkeley Expert Report (Cross-Reference)
 - **Authors**: Brian Galle, David Gamage, Emmanuel Saez, Darien Shanske
 - **Title**: "Revenue Estimate for the California Billionaire Tax Act"
-- **What it provides**: Core dataset of 204 CA billionaires, $2.19T collective wealth, revenue estimation framework
-- **Confidence**: High
-- **Used for**: Baseline billionaire count, total wealth, revenue estimation
-
-### Forbes Real-Time Billionaires API
-- **Source**: github.com/komed3/rtb-api
-- **What it provides**: Current net worth, industry classification, residence
-- **Access**: Free JSON API via GitHub CDN
-- **Confidence**: Medium (self-reported, estimates)
-- **Used for**: Cross-referencing baseline data, industry breakdown
-- **Note**: The app falls back to cached baseline data if the API is unavailable
+- **Date**: December 2025
+- **What it provides**: Cited 204 CA billionaires with $2.19T wealth
+- **Confidence**: Medium — data sources and methodology not disclosed in the report
+- **Used for**: Cross-reference only
+- **Note**: The ~46-person gap vs Forbes is likely due to date differences (Dec 2025 vs Feb 2026), different residency definitions, and 59 billionaires near the $1B threshold who fluctuate with markets
 
 ### California Legislative Analyst's Office (2025)
 - **What it provides**: Revenue order of magnitude ("tens of billions"), administrative cost range ($15M-$300M)
