@@ -1,0 +1,10 @@
+{
+  "source": "UC Berkeley report + Forbes data analysis",
+  "tiers": [
+    {"range": "$1B-$2B", "count": 68, "avg_wealth_b": 1.4, "total_wealth_b": 95.2, "pct_of_total": 0.043},
+    {"range": "$2B-$5B", "count": 65, "avg_wealth_b": 3.1, "total_wealth_b": 201.5, "pct_of_total": 0.092},
+    {"range": "$5B-$10B", "count": 35, "avg_wealth_b": 7.0, "total_wealth_b": 245.0, "pct_of_total": 0.112},
+    {"range": "$10B-$50B", "count": 28, "avg_wealth_b": 22.0, "total_wealth_b": 616.0, "pct_of_total": 0.281},
+    {"range": "$50B+", "count": 8, "avg_wealth_b": 129.0, "total_wealth_b": 1032.0, "pct_of_total": 0.471}
+  ]
+}

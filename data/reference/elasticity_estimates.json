@@ -1,0 +1,38 @@
+{
+  "note": "Migration elasticity estimates from published research. Elasticity = % change in population / % change in net-of-tax rate",
+  "estimates": [
+    {
+      "label": "Optimistic (Low Flight)",
+      "elasticity": 0.06,
+      "source": "Young et al. 2016",
+      "population": "Millionaires (broad)",
+      "context": "US interstate migration of millionaires",
+      "note": "Found very low elasticity for general millionaire population"
+    },
+    {
+      "label": "Baseline (Moderate)",
+      "elasticity": 0.35,
+      "source": "Moretti & Wilson 2019",
+      "population": "Ultra-wealthy",
+      "context": "US interstate, top earners responding to state tax changes",
+      "note": "Most cited estimate for US ultra-wealthy migration"
+    },
+    {
+      "label": "Pessimistic (High Flight)",
+      "elasticity": 1.0,
+      "source": "Conservative upper bound",
+      "population": "Billionaires (speculative)",
+      "context": "Upper bound from various studies",
+      "note": "No direct study of billionaire-specific elasticity exists"
+    },
+    {
+      "label": "Extreme (Star Scientists)",
+      "elasticity": 1.9,
+      "source": "Moretti & Wilson 2017",
+      "population": "Star scientists / inventors",
+      "context": "Highly mobile knowledge workers",
+      "note": "Star scientists are more mobile than general wealthy population"
+    }
+  ],
+  "conversion_note": "Published elasticities are for ANNUAL taxes. For a ONE-TIME tax, we use an equivalent annual rate conversion: 5% one-time ≈ 1% annual over 5 years. This is a major modeling assumption."
+}

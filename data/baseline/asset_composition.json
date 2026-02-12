@@ -1,0 +1,9 @@
+{
+  "source": "Average across CA billionaire wealth portfolios (estimated from SEC filings, Forbes profiles)",
+  "composition": {
+    "public_equity": {"share": 0.60, "label": "Public Equity", "note": "Publicly traded stock holdings"},
+    "private_holdings": {"share": 0.25, "label": "Private Holdings", "note": "Private company stakes, PE/VC"},
+    "real_estate": {"share": 0.10, "label": "Real Estate", "note": "Excluded from tax base"},
+    "other": {"share": 0.05, "label": "Other Assets", "note": "Cash, art, other investments"}
+  }
+}

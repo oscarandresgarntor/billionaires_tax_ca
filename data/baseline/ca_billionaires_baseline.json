@@ -1,0 +1,6 @@
+{
+  "source": "UC Berkeley expert report cross-referenced with Forbes RTB API",
+  "date": "2025-12",
+  "note": "Synthetic dataset calibrated to match Berkeley report totals: 204 billionaires, $2.19T collective wealth",
+  "billionaires": []
+}

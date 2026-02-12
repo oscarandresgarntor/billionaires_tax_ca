@@ -1,0 +1,19 @@
+{
+  "source": "California Franchise Tax Board, IRS Statistics of Income",
+  "tax_year": 2023,
+  "total_pit_revenue_b": 120,
+  "top_marginal_rate": 0.133,
+  "concentration": {
+    "top_0_1_pct": {"share_of_revenue": 0.25, "avg_agi_m": 12.5, "approx_filers": 18000},
+    "top_1_pct": {"share_of_revenue": 0.50, "avg_agi_m": 2.8, "approx_filers": 180000},
+    "top_5_pct": {"share_of_revenue": 0.70, "avg_agi_m": 0.8, "approx_filers": 900000},
+    "top_10_pct": {"share_of_revenue": 0.80, "avg_agi_m": 0.45, "approx_filers": 1800000}
+  },
+  "high_earner_migration": {
+    "annual_net_outmigration_top_1pct": 2500,
+    "annual_lost_revenue_b": 1.7,
+    "note": "CA experiences net outmigration of high earners, primarily to TX, FL, NV, WA"
+  },
+  "billionaire_avg_income_tax_m": 50,
+  "note": "Average annual CA income tax paid per billionaire estimated at ~$50M based on typical income/gains realization patterns"
+}

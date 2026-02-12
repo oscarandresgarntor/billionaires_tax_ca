@@ -1,0 +1,30 @@
+{
+  "note": "Fiscal multiplier estimates from published research",
+  "multipliers": {
+    "healthcare": {
+      "value": 1.5,
+      "source": "Richmond Fed Medicaid multiplier estimate",
+      "range": [1.2, 1.8],
+      "note": "Each $1 of healthcare spending generates $1.50 in economic activity"
+    },
+    "education": {
+      "value": 1.2,
+      "source": "CBO estimates of education spending multiplier",
+      "range": [0.9, 1.5],
+      "note": "Education spending has moderate near-term multiplier, higher long-term returns"
+    },
+    "food_assistance": {
+      "value": 1.7,
+      "source": "USDA SNAP multiplier analysis",
+      "range": [1.4, 2.0],
+      "note": "Food assistance has high multiplier due to high MPC of recipients"
+    },
+    "general_government": {
+      "value": 1.0,
+      "source": "CBO baseline government spending multiplier",
+      "range": [0.5, 1.5],
+      "note": "Depends heavily on economic conditions"
+    }
+  },
+  "conditions_note": "Multipliers are higher during recessions and lower during expansions. Baseline assumes normal economic conditions."
+}
